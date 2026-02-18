@@ -38,4 +38,6 @@ DISPLAY_PAGES_ON_MENU = True
 
 THEME = './themes/Peli-Kiera'
 
-INDEX_SAVE_AS = 'output/about.html'
+#INDEX_SAVE_AS = 'output/about.html'
+
+INDEX_SAVE_AS = 'blog.html' # Moves the list of posts to /blog.html
