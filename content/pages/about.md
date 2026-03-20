@@ -4,7 +4,7 @@ Save_as: index.html
 Order: 0
 
 ![Remy]({static}/images/remy2017.jpg){: .float-image-right }
-[My résumé]({static}/pdfs/remy.pdf)
+[My résumé]({static}/pdfs/remyResumeShort.pdf)
 
 
 [remy.praz@gmail.com](mailto:remy.praz@gmail.com)  

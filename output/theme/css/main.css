@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 @import url("pygment.css");
 
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: "Source Serif 4", serif; /*font-family: "Roboto Slab", serif;*/
+  font-family: "Lora", serif; /*font-family: "Roboto Slab", serif;*/
   color: #333333;
 }
 
@@ -16,7 +16,7 @@ h4,
 h5,
 h6,
 time {
-  font-family: "Roboto", sans-serif; /*font-family: "Ruda", sans-serif;*/
+  font-family: "Open Sans", sans-serif; /*font-family: "Ruda", sans-serif;*/
   font-weight: 400; /* This is the "Light" weight */
 }
 
@@ -80,7 +80,7 @@ time {
 #container nav {
   border-bottom: solid 3px #cecece;
   padding-bottom: 0.5em;
-  font-family: "Roboto", sans-serif; /*font-family: "Ruda", sans-serif;*/
+  font-family: "Open Sans", sans-serif; /*font-family: "Ruda", sans-serif;*/
 }
 
 #container nav ul {
@@ -137,10 +137,20 @@ time {
   margin-bottom: 1.1em; 
 }
 
-#container p a {
-  /*font-style: italic;*/
-  text-decoration: underline;
-  text-decoration-style: dotted;
+/* Only underline links inside the actual article body */
+#container main p a, 
+#container main li a {
+    text-decoration: none;
+    border-bottom: 1.5px solid #e0e0e0;
+    padding-bottom: 1px;
+    transition: border-color 0.2s;
+}
+
+#container p a:hover, 
+#container li a:hover{
+    border-bottom-color: #999999; /* Change color when hovering */
+    /*color: #555555;*/
+    text-decoration: none;
 }
 
 #container main section#list ul {
@@ -252,7 +262,7 @@ time {
 #container main section#home ul li aside,
 #container main article aside {
   margin: 0.5em 0;
-  font-family: "Roboto", sans-serif; /*font-family: "Ruda", sans-serif;*/
+  font-family: "Open Sans", sans-serif; /*font-family: "Ruda", sans-serif;*/
   color: #909090;
   font-size: 0.8em;
 }
@@ -274,7 +284,7 @@ time {
 
 a {
   color: #666666;
-  text-decoration: none;
+  text-decoration: none; /* Remove the default dotted line */
 }
 
 .image,
