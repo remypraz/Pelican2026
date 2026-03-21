@@ -132,9 +132,9 @@ time {
 #container main p, 
 #container main li, 
 #container main blockquote {
-  font-size: 1.1rem; /* Only the reading text gets larger */
-  line-height: 1.6;   /* Extra air for Garamond */
-  margin-bottom: 1.1em; 
+  font-size: 1.1rem; 
+  line-height: 1.5;  
+  margin-bottom: .8em; 
 }
 
 /* Only underline links inside the actual article body */
@@ -474,3 +474,5 @@ ul.pagination li {
 ul.pagination li.active {
   font-weight: bold;
 }
+
+
