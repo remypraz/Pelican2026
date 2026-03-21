@@ -42,7 +42,7 @@ time {
 }
 
 #container header {
-  margin-bottom: 0em;
+  margin-bottom: -1rem;
 }
 
 #container header h1 {
@@ -369,7 +369,7 @@ figure.float-right img,
 img[src*="float-right"] {
   width: 300px;
   float: right;
-  margin: 0 -3em 1em 1em;
+  margin: 0 0em 1em 1em;
   box-shadow: 0 3px 3px #bbbbbb;
 }
 
