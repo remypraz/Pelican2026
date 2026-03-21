@@ -43,3 +43,6 @@ THEME = './themes/Peli-Kiera'
 INDEX_SAVE_AS = 'blog.html' # Moves the list of posts to /blog.html
 
 PAGE_ORDER_BY = 'order'
+
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
